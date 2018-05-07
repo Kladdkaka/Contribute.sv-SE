@@ -4,46 +4,68 @@ description: Den här guiden beskriver hur du kan bidra till Microsofts dokument
 author: bryanla
 ms.author: bryanla
 manager: mbaldwin
-ms.date: 01/25/2018
+ms.date: 04/17/2018
 ms.prod: non-product-specific
 ms.topic: contributor-guide
 ms.custom: external-contributor-guide
-ms.openlocfilehash: af07ddaaf196f6913c4c0a4816621535c3193ba0
-ms.sourcegitcommit: dd1b4e915f4996ac029d2a0704ced785438d3484
+ms.openlocfilehash: 1cda40c890e5b30e6e1e10f3bcee0278f8004653
+ms.sourcegitcommit: 3ec397fab57ea582edb03a59609f62d886410ee8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/23/2018
+ms.lasthandoff: 04/28/2018
 ---
 # <a name="microsoft-docs-contributor-guide-overview"></a>Microsoft Docs deltagarguide – översikt
 
 Välkommen till deltagarguiden för [docs.microsoft.com](https://docs.microsoft.com) (Docs)!
 
-## <a name="about-this-guide"></a>Om den här guiden
+Flera av våra dokumentuppsättningar är öppen källa, med GitHub som värd. Fler och fler team anammar den här modellen hela tiden. Till och med dokumentuppsättningar som inte är helt öppen källa har offentliga lagringsplatser där du är inbjuden att göra pull-begäranden. Detta strömlinjeformar och förbättrar kommunikationen mellan produktingenjörer, innehållsteam och våra kunder. Att arbeta offentligt ger flera fördelar:
 
-Här hittar du all information som du behöver för att bidra i Docs-artiklar, genom att använda Microsofts OPS-plattform (Open Publishing Services) och stödverktyg och -processer.
+- Lagringsplatser med öppen källkod offentligt för att få feedback på vilka dokument som behövs mest.
+- Offentlig granskning av lagringsplatser med öppen källkod för att publicera det mest hjälpfulla innehållet för din första utgåva.
+- Offentlig uppdatering av lagringsplatser med öppen källkod för att göra det enklare att hela tiden förbättra innehållet.
 
-Innehållsförteckningen till vänster är utformad för att hjälpa dig att komma igång och kunna bidra produktivt till Microsoft Docs. De inledande artiklarna innehåller information om hur du snabbt kan komma igång med de uppgifter som är gemensamma för alla bidragsaktiviteter. Artiklarna längre fram som innehåller information som är specifik respektive uppgift, och där bör du fokusera på de avsnitt som beskriver de aktiviteter som intresserar dig. Många av artiklarna kan också fungera som referensinnehåll som du kanske vill spara som en favorit/ett bomärke i din webbläsare. Observera också att det finns flera länkar till andra webbplatser som tar dig till sidor som är utanför docs.microsoft.com-domänen och utanför den här guiden.
+Användarupplevelsen på [docs.microsoft.com](https://docs.microsoft.com) integrerar [GitHub](https://github.com)-arbetsflödet direkt för att göra det ännu enklare. Börja med att [redigera det dokument du visar](#quick-edits-to-existing-documents). Hjälp till genom att [granska nya ämnen](#review-open-prs) eller [skapa kvalitetsärenden](#create-quality-issues).
 
-## <a name="contribution-tasks"></a>Bidragsuppgifter
+> [!IMPORTANT]
+> Alla informationslager som publicerar till docs.microsoft.com har antagit [Microsoft Open Source-uppförandekoden](https://opensource.microsoft.com/codeofconduct/) eller [.NET Foundation-uppförandekoden](https://dotnetfoundation.org/code-of-conduct). Mer information finns i [vanliga frågor och svar om uppförandekoden](https://opensource.microsoft.com/codeofconduct/faq/). Eller kontakta [opencode@microsoft.com](mailto:opencode@microsoft.com), eller [conduct@dotnetfoundation.org](mailto:conduct@dotnetfoundation.org) med frågor eller funderingar.<br>
+>
+> Mindre korrigeringar eller förklaringar till dokumentation och kodexempel i offentliga databaser hittar du i [Användningsvillkor för docs.microsoft.com](https://docs.microsoft.com/legal/termsofuse). Vid nya eller avsevärda förändringar skapas en kommentar i pull-begäran, där du ombes skicka in ett licensavtal för bidrag online om du inte är anställd inom Microsoft. Du måste fylla i hela online-formuläret innan vi kan granska eller acceptera din pull-begäran.
 
-Det finns flera sätt på vilka du kan bidra till dokument:
+## <a name="quick-edits-to-existing-documents"></a>Snabbredigeringar till existerande dokument
 
-- Du kan [skapa ärenden](how-to-contribute.md#create-issues) för att rekommendera nya artiklar eller förbättra befintliga artiklar.
-- Du kan [snabbredigera](how-to-contribute.md#quick-edits) artiklar genom att göra mindre ändringar i GitHub-onlineredigeraren.
-- Du kan [granska utkast till nya artiklar](how-to-contribute.md#review-new-articles) så att kvalitet och teknisk noggrannhet garanteras.
-- Du kan [skapa nya artiklar](how-to-contribute.md#create-new-articles) om ämnen där du vill bidra till att förbättra innehållet.
-- Du kan [uppdatera](how-to-contribute.md#update-samples) eller [skapa](how-to-contribute.md#create-samples) exempel som ger förbättrade kodexempel eller förtydligar viktiga begrepp.
+Snabbredigeringar strömlinjeformar processen med att rapportera och korrigera små fel och utelämningar i dokumenten. Trots att vi gör vårt yttersta kan små grammatik- och stavfel hitta sig in bland våra publicerade dokument. Då du kan skapa ärenden för att rapportera misstag. Det är snabbare och enklare att skapa en pull-begäran för att lösa problemet. Nästan alla artiklar har en redigeringsknapp såsom visas i följande figur. Klicka på knappen **Redigera** för att komma till källfilen på GitHub.
 
-Våra offentliga databaser finns på GitHub och skrivs i Markdown. Du behöver följande för att kunna bidra:
+![Platsen för länken Redigera](./media/index/edit-article.png)
 
-1. [Skapa ett GitHub-konto](https://github.com/join) om inte redan har ett.
-2. Docs-artiklar skrivs i ett märkspråk som kallas Markdown. Du bör ha en grundläggande förståelse av [Markdown](https://daringfireball.net/projects/markdown/syntax)-syntax.
+Klicka sedan på pennikonen som visas i följande figur för att redigera artikeln.
 
-## <a name="quick-start-to-propose-an-article-change"></a>Snabbstart för att föreslå en artikeländring
+> [!NOTE]
+> Om pennikonen är nedtonad behöver du logga in på ditt GitHub-konto eller skapa ett nytt konto. Gör dina ändringar i webbredigeraren. Du kan klicka på fliken **Förhandsgranska ändringar** för att kontrollera formateringen på din ändring.
 
-Om du inte har tid att läsa igenom hela guiden eller installera verktyg utan bara vill lämna ett mindre bidrag, så följ de viktigaste stegen. Använd [arbetsflödet för webbredigering](how-to-contribute.md#quick-edits) när du skickar in ditt bidrag via en GitHub pull-begäran. Du måste redigera innehållet och skicka PR i webbläsaren.
+![Platsen för pennikonen](./media/index/editicon.png)
 
-## <a name="additional-ways-to-contribute-to-docsmicrosoftcom-content"></a>Ytterligare sätt att bidra till docs.microsoft.com-innehåll
+Då du har gjort ändringarna rullar du längst ner på sidan. Ange titel och beskrivning för din pull-begäran och klicka på **Föreslå filändring** såsom visas i följande figur:
 
-Du kan lära dig mer om de olika uppgifterna i vår artikel om [hur man bidrar](how-to-contribute.md).
+![föreslå din ändring](./media/index/submit-pull-request.png)
 
+Klart! Medlemmar i innehållsteamet kommer att granska och slå samman din pull-begäran. Du kan få viss feedback som begär ändringar om du gjort större ändringar.
+
+Användargränssnittet för GitHub-redigering svarar på dina tillstånd på lagringsplatsen. Följande bilder är korrekta för deltagare som inte har skrivbehörigheter till mållagringsplatsen. GitHub skapar automatiskt en förgrening för mållagringsplatsen i ditt konto. Om du har skrivåtkomst till mållagringsplatsen skapar GitHub en ny gren i mållagringsplatsen. Grennamnet har formatet **\<GitHubId\>-patch-n** och använder ditt GitHub-ID och en numerisk identifierare för korrigeringsgrenen.
+
+Vi använder pull-begäranden för alla ändringar, även för deltagare som har skrivåtkomst. De flesta lagringsplatser har `master`-grenen skyddad så att uppdateringar måste skickas som pull-begäranden.
+
+Redigeringsupplevelsen i webbläsaren är bäst för mindre eller inte ofta förekommande ändringar. Om du gör stora bidrag eller använder avancerade Git-funktioner (såsom förgreningshantering eller lösning av avancerad kopplingskonflikt), behöver du [förgrena lagringsplatsen och arbeta lokalt](how-to-write-workflows-major.md).
+
+## <a name="review-open-prs"></a>Granska öppna pull-begäranden
+
+Du kan läsa nya ämnen innan de publiceras genom att kontrollera de pull-begäranden som är öppna för tillfället. Granska följande process för [GitHub-flöde](https://guides.github.com/introduction/flow/). Du kan se föreslagna uppdateringar eller nya artiklar i de offentliga lagringsplatserna. Granska dem och lägg till dina kommentarer. Titta på någon av våra dokumentdatabaser och kontrollera de öppna pull-begärandena för områden som intresserar dig. Community-feedback för föreslagna uppdateringar hjälper hela communityn.
+
+## <a name="create-quality-issues"></a>Skapa kvalitetsärenden
+
+Våra dokument är under ständigt pågående arbete. Bra ärenden hjälper oss att fokusera våra ansträngningar med högsta prioritet för communityn. Ju fler detaljer du kan ge, desto hjälpsammare blir ärendet. Berätta för oss vilken information du sökt. Berätta för oss vilka söktermer du använde. Om du inte kommer igång, berätta för oss hur du vill börja att utforska okänd teknik.
+
+Ärenden påbörjar konversationen om vad som behövs. Innehållsteamet kommer att svara på dessa ärenden med idéer om vad vi kan lägga till och be om dina åsikter. Vi kan skapa en skiss och vi kommer att be dig att [granska pull-begärandet](#review-open-prs).
+
+## <a name="get-more-involved"></a>Bli mer involverad
+
+Andra ämnen hjälper dig att komma igång produktivt och bidra till Microsoft Docs. De förklarar hur du arbetar med GitHub-lagringsplatser, Markdown-verktyg och tillägg som används i Microsoft Docs-plattformen.

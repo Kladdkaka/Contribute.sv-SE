@@ -8,11 +8,11 @@ ms.date: 01/18/2018
 ms.prod: non-product-specific
 ms.topic: contributor-guide
 ms.custom: external-contributor-guide
-ms.openlocfilehash: d9c7211641fb05aaca8a76e10c7216ff61a5d23c
-ms.sourcegitcommit: dd1b4e915f4996ac029d2a0704ced785438d3484
+ms.openlocfilehash: f702d0d29ee7dc9c69cb26b79bf6283d91b6b6bc
+ms.sourcegitcommit: 3ec397fab57ea582edb03a59609f62d886410ee8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/23/2018
+ms.lasthandoff: 04/28/2018
 ---
 # <a name="set-up-git-repository-locally-for-documentation"></a>Ställ in Git-lagringsplatsen lokalt för dokumentation
 
@@ -27,7 +27,7 @@ Du kan köra de här engångsaktiviteterna för konfiguration för att komma ig�
 > * Konfigurera det överordnade fjärrvärdet
 
 > [!IMPORTANT]
-> Om du bara gör mindre ändringar i en artikel behöver du *inte* slutföra stegen i den här artikeln. Du kan fortsätta direkt till [arbetsflödet för mindre eller sporadiska ändringar](light-workflow.md).
+> Om du bara gör mindre ändringar i en artikel behöver du *inte* slutföra stegen i den här artikeln. Du kan fortsätta direkt till [arbetsflödet för snabba ändringar](index.md#quick-edits-to-existing-documents).
 >
 
 ## <a name="overview"></a>Översikt
@@ -46,7 +46,7 @@ Dokumentation som finns på [docs.microsoft.com](https://docs.microsoft.com) bef
 
 1. Om du är osäker på vilken lagringsplats du ska använda, kan du gå till artikeln på docs.microsoft.com med din webbläsare. Välj **Redigera**-länken (pennikonen) i det övre högra hörnet på artikeln.
 
-   ![Klicka på Redigera för att se lagringsplatsen och filplatsen.](media/edit-article.png)
+   ![Klicka på Redigera för att se lagringsplatsen och filplatsen.](media/index/edit-article.png)
 
 2. Länken tar dig till github.com-platsen för motsvarande Markdown-fil i lämplig lagringsplats. Lägg märke till URL:en för att se lagringsplatsens namn.
 

@@ -1,18 +1,18 @@
 ---
 title: Installera innehållsredigeringsverktyg
 description: Den här artikeln hjälper dig att hämta och installera de klientverktyg du behöver för Git och för att redigera Markdown-filer.
-author: bryanla
-ms.author: bryanla
-manager: mbaldwin
-ms.date: 01/04/2018
+author: jasonwhowell
+ms.author: jasonh
+manager: kfile
+ms.date: 04/30/2018
 ms.prod: non-product-specific
 ms.topic: contributor-guide
 ms.custom: external-contributor-guide
-ms.openlocfilehash: 0ca942e557640db1ba36d3f5b1064656ed3dea8d
-ms.sourcegitcommit: 3ec397fab57ea582edb03a59609f62d886410ee8
+ms.openlocfilehash: 1011c3fc829202a3df134ddc80eb05b8959b7bf6
+ms.sourcegitcommit: 7b668124f25b8ad0442937a3ad05b19a47af5970
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="install-content-authoring-tools"></a>Installera innehållsredigeringsverktyg
 
@@ -20,6 +20,7 @@ Den här artikeln beskriver stegen för att interaktivt installera Git-klientver
 > [!div class="checklist"]
 > * Installera [Git för Windows](https://git-scm.com/download/win)
 > * Installera [Visual Studio Code](https://code.visualstudio.com/)
+> * Installera [Docs-redigeringspaket](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-authoring-pack)
 
 >[!IMPORTANT]
 > Om du endast gör mindre ändringar i en artikel behöver du *inte* slutföra det här steget utan kan fortsätta direkt till [arbetsflödet för snabba ändringar](index.md#quick-edits-to-existing-documents).
@@ -58,6 +59,16 @@ Ladda ned och installera [VS Code](https://code.visualstudio.com/). Hemsidan fö
 
 > [!TIP]
 > Kör kommandot `code .` i kommandoraden eller bash-kommandon för att starta VS Code och öppna den aktuella mappen. Om den aktuella mappen är en del av en lokal git-lagringsplats, visas github-integreringen automatiskt i Visual Studio Code.
+
+## <a name="docs-authoring-pack"></a>Docs-redigeringspaket
+Installera Docs-redigeringspaket för Visual Studio Code. Den här uppsättningen av tillägg innefattar grundläggande redigeringshjälp när du skriver Markdown och en förhandsgranskningsfunktion, så att du kan se hur Markdown ser ut i stilen för webbplatsen docs.microsoft.com.
+
+   Besök [marknadsplatssidan](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-authoring-pack) och välj **Installera** eller sök efter `docsmsft.docs-authoring-pack` i listan över tillägg i VS Code-fönstret. 
+
+   Docs-redigeringspaketet blir tillgängligt genom att trycka på Alt+M i VS Code. Verktygsfältet är som standard dolt men kan visas. Redigera VS Code-inställningarna (Ctrl+komma) och lägg till användarinställning `"markdown.showToolbar": true` för att visa verktygsfältet.
+
+   Du hittar mer information på sidan [Docs-redigeringspaket](how-to-write-docs-auth-pack.md).
+
 
 ## <a name="next-steps"></a>Nästa steg
 

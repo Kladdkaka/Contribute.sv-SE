@@ -1,19 +1,18 @@
 ---
 title: Docs-redigeringspaket för VS Code
-description: Tilläggspaketet för VS Code underlättar Markdown-redigering för docs.microsoft.com.
+description: Den här artikeln beskriver Tilläggspaketet för VS Code för att underlätta Markdown-redigering för docs.microsoft.com.
 author: meganbradley
 ms.author: mbradley
 manager: jemash
 ms.date: 04/06/2018
-ms.article: contributor-guide
-ms.prod: n.a
-ms.service: n.a
-ms.technology: n.a
-ms.openlocfilehash: 5c857deb07e28e1f6744c895a291bf78a6acf1df
-ms.sourcegitcommit: dd1b4e915f4996ac029d2a0704ced785438d3484
+ms.prod: non-product-specific
+ms.topic: contributor-guide
+ms.custom: external-contributor-guide
+ms.openlocfilehash: d0d61db2faf88598ecd2c800fb5fbe8df8ec44f5
+ms.sourcegitcommit: 7b668124f25b8ad0442937a3ad05b19a47af5970
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/23/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="docs-authoring-pack-for-vs-code"></a>Docs-redigeringspaket för VS Code
 
@@ -87,7 +86,7 @@ Tidigare användare av tilläggskoden med namnet "Gauntlet" kommer att se att re
 
 ## <a name="known-issues"></a>Kända problem
 
-- [DocFX-förhandsgranskning] MacOS och Linux: DocFX-förhandsgranskningen startas inte korrekt (förhandsgranskningen går som standard till förhandsgranskning för VS Code Markdown för dessa plattformar).
-- [DocFx-förhandsgranskning] Alla plattformar: En del syntax, t.ex. xref-länkar (korsreferens) till API:er, renderas inte korrekt i förhandsgranskning. I vissa fall blir det luckor i innehållet.
-- [Externa bokmärken] Linux: Fillistan visas men det visas inga rubriker som kan väljas.
-- [Inkluderingar] Linux: Fillistan visas men ingen länk läggs till efter att ett val har gjorts.
+- DocFX-förhandsgranskning: På MacOS och Linux startas DocFX-förhandsgranskningen inte korrekt (förhandsgranskningen går som standard till förhandsgranskning för VS Code Markdown för dessa plattformar).
+- DocFx-förhandsgranskning: På alla plattformar, renderas en del syntax, t.ex. xref-länkar (korsreferens) till API:er inte korrekt i förhandsgranskning. I vissa fall blir det luckor i innehållet.
+- Externa bokmärken: På Linux visas fillistan men den visas inga rubriker som kan väljas.
+- Inkluderingar: På Linux visas fillistan men ingen länk läggs till efter att ett val har gjorts.
