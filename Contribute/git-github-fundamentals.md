@@ -8,11 +8,11 @@ ms.date: 06/30/2017
 ms.prod: non-product-specific
 ms.topic: contributor-guide
 ms.custom: external-contributor-guide
-ms.openlocfilehash: 5ad2ca323b680078c2bfd2fc4cac6fb1883c411f
-ms.sourcegitcommit: dd1b4e915f4996ac029d2a0704ced785438d3484
+ms.openlocfilehash: 5f7f90b69953e23833906202c739d2168b139d7e
+ms.sourcegitcommit: e046e7aad8ed22bffe5380d63a9d40f0baeecc57
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/23/2018
+ms.lasthandoff: 05/22/2018
 ---
 # <a name="git-and-github-essentials-for-docs"></a>Information om Git och GitHub för Docs
 
@@ -80,7 +80,7 @@ Av praktiska skäl innehåller rotkatalogen för varje lagringsplats normalt Mar
 
 En *pull-begäran* är ett enkelt sätt för deltagare att föreslå en uppsättning ändringar som ska appliceras på standardgrenen. Ändringarna (även kända som *allokeringar*) lagras i deltagarens gren, vilket gör det möjligt för GitHub att modellera deras påverkan då de *slås samman* med standardgrenen. En pull-begäran fungerar också som en mekanism för att förse deltagaren med feedback från en bygg-/valideringsprocess, pull-begäransgranskaren, för att lösa eventuella frågor innan ändringarna slås samman med standardgrenen.
 
-Det finns två sätt att bidra med pull-begäran, beroende på storleken på de ändringar du vill föreslå. Vi går igenom detta mer i detalj i avsnittet om [GitHub-arbetsflödet](light-workflow.md) senare i den här guiden.
+Det finns två sätt att bidra med pull-begäran, beroende på storleken på de ändringar du vill föreslå. Vi går igenom detta mer i detalj i avsnittet om [GitHub-arbetsflödet](how-to-write-workflows-major.md) senare i den här guiden.
 
 <!---- Reference links for Docs landing pages, associated GitHub repositories, and related Forums matrix. ------------------>
 <!---- PLEASE INSERT URLS IN ASCENDING SORT ORDER, AND REMOVE LOCALE SEGMENT FROM URLS (that is, en-us) FOR LOCALIZED FORUMS! -->
