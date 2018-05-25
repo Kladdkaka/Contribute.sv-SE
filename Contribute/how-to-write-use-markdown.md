@@ -8,17 +8,22 @@ ms.date: 07/13/2017
 ms.prod: non-product-specific
 ms.topic: contributor-guide
 ms.custom: external-contributor-guide
-ms.openlocfilehash: 96d00abc052c3b23ca62201dccdbe590a927e72d
-ms.sourcegitcommit: de6e6b6ca641fdd5b30eb46deee9ac3a500089ef
+ms.openlocfilehash: 041398361aef90c44bdf3a0dad4aaa2d40a38289
+ms.sourcegitcommit: 782b689882cce3ce07f5613763322989f2d0d63f
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/23/2018
 ---
 # <a name="how-to-use-markdown-for-writing-docs"></a>Använda Markdown för att skriva i Docs
 
 Docs.microsoft.com-artiklar skrivs i ett förenklat märkspråk som heter [Markdown](https://daringfireball.net/projects/markdown/) vilket är lätt att läsa och lätt att lära sig. På grund av detta har det snabbt blivit en industristandard.
 
-Eftersom Docs-innehåll lagras på GitHub används en överordnad uppsättning av Markdown som kallas [GitHub Flavored Markdown (GFM)](https://help.github.com/categories/writing-on-github/) som ger ytterligare funktioner för vanliga formateringsbehov. Open Publishing Services (OPS) implementerar dessutom DocFX Flavored Markdown (DFM). DFM är starkt kompatibelt med GitHub Flavored Markdown (GFM), vilket möjliggör Docs-specifika funktioner.
+Eftersom Docs-innehåll lagras på GitHub används en överordnad uppsättning av Markdown som kallas [GitHub Flavored Markdown (GFM)](https://help.github.com/categories/writing-on-github/) som ger ytterligare funktioner för vanliga formateringsbehov. Open Publishing Services (OPS) implementerar dessutom Markdig Markdown Parser. Markdig är starkt kompatibelt med GitHub Flavored Markdown (GFM), vilket möjliggör Docs-specifika funktioner.
+
+* Markdig är en snabb, kraftfull, CommonMark-kompatibel, utökningsbar Markdown-processor för .NET.
+* https://github.com/lunet-io/markdig
+* Bättre communitysupport
+* Bättre standardsupport
 
 ## <a name="markdown-basics"></a>Grunder för Markdown
 
@@ -145,7 +150,7 @@ Till exempel, följande Markdown:
 
 Mer information om att skapa tabeller finns här:
 
-- [Tabellhanteringsfunktionen](#table-wrapping) i DFM kan vara användbar vid formatering av breda tabeller
+- [Tabellhanteringsfunktionen](#table-wrapping) i Markdig kan vara användbar vid formatering av breda tabeller
 - GitHubs [Organisera information med tabeller](https://help.github.com/articles/organizing-information-with-tables/)
 - Webbappen [Markdown-tabellgenerator](https://www.tablesgenerator.com/markdown_tables)
 - [Adam Pritchards lathund för Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#wiki-tables)
@@ -161,7 +166,7 @@ Markdown-syntaxen för en intern länk består av en `[link text]`-del, som best
 För mer information om länkar, se:
 
 - [Markdown-syntaxguiden](https://daringfireball.net/projects/markdown/syntax#link) för information om Markdowns stöd för baslänkning.
-- Avsnittet [Länkar](how-to-write-links.md) i den här anvisningen för information om mer länkningssyntax som DFM erbjuder.
+- Avsnittet [Länkar](how-to-write-links.md) i den här anvisningen för information om mer länkningssyntax som Markdig erbjuder.
 
 ### <a name="code-snippets"></a>Kodfragment
 
@@ -272,9 +277,9 @@ CREATE TABLE T1 (
 ## <a name="ops-custom-markdown-extensions"></a>OPS-anpassade Markdown-förlängningar
 
 > [!NOTE]
-> Open Publishing Services (OPS) implementerar DocFX Flavored Markdown (DFM), som är mycket kompatibel med GitHub Flavored Markdown (GFM). DFM lägger till vissa ytterligare funktioner via Markdown-tillägg. Utvalda artiklar från den fullständiga OPS-redigeringsguiden ingår till exempel i den här handboken som referens. (Se till exempel ”DFM och Markdown-tillägg” och ”Kodfragment” i innehållsförteckningen.)
+> Open Publishing Services (OPS) implementerar Markdig Parser för Markdown, som är mycket kompatibel med GitHub Flavored Markdown (GFM). Markdig lägger till vissa ytterligare funktioner via Markdown-tillägg. Utvalda artiklar från den fullständiga OPS-redigeringsguiden ingår till exempel i den här handboken som referens. (Se till exempel ”Markdig- och Markdown-tillägg” och ”Kodfragment” i innehållsförteckningen.)
 
-Docs-artiklar använder GFM för de flesta formerna av artikelformatering, som stycken, länkar, listor och rubriker. För en djupare formatering kan artiklar använda DFM-funktioner som:
+Docs-artiklar använder GFM för de flesta formerna av artikelformatering, som stycken, länkar, listor och rubriker. För en djupare formatering kan artiklar använda Markdig-funktioner som:
 
 - Anteckningsblock
 - Inkluderar
@@ -282,7 +287,7 @@ Docs-artiklar använder GFM för de flesta formerna av artikelformatering, som s
 - Inbäddade videoklipp
 - Kodfragment/-exempel
 
-För en fullständig lista, se ”DFM- och Markdown-tillägg” och ”Kodfragment” i innehållsförteckningen.
+För en fullständig lista, se ”Markdig- och Markdown-tillägg” och ”Kodfragment” i innehållsförteckningen.
 
 ### <a name="note-blocks"></a>Anteckningsblock
 
@@ -297,7 +302,7 @@ Som regel bör anteckningsblock användas sparsamt eftersom de kan vara störand
 
 ### <a name="includes"></a>Inkluderar
 
-När du har en text- eller bildfil som kan återanvändas och som måste ingå i artikelfiler kan du använda en referens som "inkluderar" filen via funktionen inkludera fil i DFM. Funktionen ger OPS en instruktion att inkludera den angivna filen i din artikelfil när den byggs, vilket gör den till en del av den publicerade artikeln. Det finns tre typer av inkluderingar som hjälper dig att återanvända innehåll:
+När du har en text- eller bildfil som kan återanvändas och som måste ingå i artikelfiler kan du använda en referens som "inkluderar" filen via funktionen inkludera fil i Markdig. Funktionen ger OPS en instruktion att inkludera den angivna filen i din artikelfil när den byggs, vilket gör den till en del av den publicerade artikeln. Det finns tre typer av inkluderingar som hjälper dig att återanvända innehåll:
 
 - Intern – Återanvänd en vanlig textsträng i en annan mening.
 - Block – Återanvänd en hel Markdown-fil som ett block som bäddas in i en del av artikeln.
@@ -309,7 +314,7 @@ Här följer krav och överväganden för inkluderingar:
 
 - Använd inkludera när du vill att samma text ska visas i flera artiklar.
 - Använd blockinkluderingar för stora mängder innehåll – ett stycke eller två, en delad procedur eller ett delat avsnitt. Använd dem inte för mindre än en mening.
-- Inkluderat innehåll återges inte i den renderade vyn för din artikel i GitHub eftersom de använder DFM-tillägg. De återges först efter publiceringen.
+- Inkluderat innehåll återges inte i den renderade vyn för din artikel i GitHub eftersom de använder Markdig-tillägg. De återges först efter publiceringen.
 - Kontrollera att all text i en inkludering är skriven i fullständiga meningar eller satser som inte är beroende av föregående eller efterföljande text i artikeln som använder den inkluderade texten. Om du hoppar över detta steg kan en sträng som inte kan översättas skapas, vilket stör den lokaliserade upplevelsen.
 - Bädda inte in inkluderingar med andra inkluderingar. De stöds inte.
 - Placera mediefiler i en mediemapp som är specifik för inkluderingsunderkatalogen – till exempel, `<repo>`/inkluderingar/mediamapp. Mediekatalogen bör inte innehålla några bilder i sin rot. Om inkluderingen inte har bilder behövs inte en motsvarande mediekatalog.
@@ -318,13 +323,13 @@ Här följer krav och överväganden för inkluderingar:
 
 ### <a name="selectors"></a>Väljare
 
-Använd väljare i tekniska artiklar när du skriver olika versioner av samma artikel för att visa implementeringsskillnader för olika tekniker eller plattformar. Detta gäller framför allt för innehåll vår plattform för mobilt innehåll för utvecklare. Det finns för närvarande två typer av väljare i DFM: en enkel väljare och en multiväljare.
+Använd väljare i tekniska artiklar när du skriver olika versioner av samma artikel för att visa implementeringsskillnader för olika tekniker eller plattformar. Detta gäller framför allt för innehåll vår plattform för mobilt innehåll för utvecklare. Det finns för närvarande två typer av väljare i Markdig: en enkel väljare och en multiväljare.
 
 Eftersom samma Markdown för väljare används i alla markerade artiklar rekommenderar vi att du placerar väljaren för en artikel i en inkludering. Du kan sedan hänvisa till den inkluderingen i alla artiklar som använder samma väljare.
 
 ### <a name="code-snippets"></a>Kodfragment
 
-DFM har stöd för avancerad inkludering av kod i artiklar, tack vare kodfragmentstillägget. Tillägget möjliggör avancerad rendering som bygger på GFM-funktioner som programmeringsspråkval och syntaxfärgning, samt användbara funktioner som:
+Markdig har stöd för avancerad inkludering av kod i artiklar, tack vare kodfragmentstillägget. Tillägget möjliggör avancerad rendering som bygger på GFM-funktioner som programmeringsspråkval och syntaxfärgning, samt användbara funktioner som:
 
 - Inkludering av centraliserade kodexempel/-fragment från externa lagringsplatser.
 - Användargränssnitt i flikar för att visa olika versioner av kodexempel i olika språk.
