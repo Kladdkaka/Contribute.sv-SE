@@ -1,19 +1,13 @@
 ---
 title: Information om Git och GitHub för dokumentation
 description: Den här artikeln innehåller en översikt för Git, GitHub-lagringsplats och hur innehåll ordnas, samt namngivningskonventioner som används för docs.microsoft.com.
-author: bryanla
-ms.author: bryanla
-manager: mbaldwin
 ms.date: 06/30/2017
-ms.prod: non-product-specific
-ms.topic: contributor-guide
-ms.custom: external-contributor-guide
-ms.openlocfilehash: 5f7f90b69953e23833906202c739d2168b139d7e
-ms.sourcegitcommit: 782b689882cce3ce07f5613763322989f2d0d63f
+ms.openlocfilehash: 8a116067fdd7d031c560abfb7055236e0bfb1a3d
+ms.sourcegitcommit: 92aef5ea8bdd692c5c393d5c8f99b9e4f672ef2b
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "34469496"
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "36239812"
 ---
 # <a name="git-and-github-essentials-for-docs"></a>Information om Git och GitHub för Docs
 
