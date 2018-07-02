@@ -1,19 +1,13 @@
 ---
 title: Använda länkar i dokumentationen
 description: Den här artikeln innehåller vägledning för att skapa länkar till innehåll i docs.microsoft.com.
-author: bryanla
-ms.author: bryanla
-manager: mbaldwin
 ms.date: 06/29/2017
-ms.prod: non-product-specific
-ms.topic: contributor-guide
-ms.custom: external-contributor-guide
-ms.openlocfilehash: 1699e57ac6a4dc4c5a1ef099ea183b3cbc6307cd
-ms.sourcegitcommit: 782b689882cce3ce07f5613763322989f2d0d63f
+ms.openlocfilehash: a66e2fb4febf1947afe01919b96b1c10873cf57d
+ms.sourcegitcommit: 92aef5ea8bdd692c5c393d5c8f99b9e4f672ef2b
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "34469542"
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "36239736"
 ---
 # <a name="using-links-in-documentation"></a>Använda länkar i dokumentation
 Den här artikeln beskriver hur du använder hyperlänkar från sidor som finns på docs.microsoft.com. Länkar är lätta att lägga till i Markdown med få varierande konventioner. Länkar leder användarna till innehåll på samma sida, leder bort till intilliggande sidor eller leder till externa webbplatser och webbadresser.
@@ -63,7 +57,10 @@ Använd följande länksyntax för att skapa en infogad länk från en Docs tekn
   `[link text](../directory/article-name.md)`
 
 - En artikel som länkar över dokumentuppsättningar (även om de finns i samma lagringsplats): `[link text](./directory/article-name)`
-  
+
+> [!IMPORTANT]
+> Inget av exemplen ovan använder `~/` som en del av länken. Om du länkar till en sökväg vid lagringsplatsens rot börjar du med `/`. Om `~/` tas med skapas ogiltiga länkar vid navigering på källagringsplatserna på GitHub. Om sökvägen börjar med `/` blir matchningen korrekt.
+
 ## <a name="links-to-anchors"></a>Länkar till fästpunkter
 
 Du behöver inte skapa fästpunkter. De skapas automatiskt vid publiceringstillfället för alla H2-rubriker. Det enda du behöver göra är att skapa länkar till H2-avsnitten.
