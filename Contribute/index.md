@@ -5,18 +5,18 @@ author: billwagner
 ms.author: wiwagn
 manager: wpickett
 ms.date: 04/17/2018
-ms.openlocfilehash: a0c52fea8f3a57cdfe89c2cd7a24ef7b511ada7c
-ms.sourcegitcommit: 92aef5ea8bdd692c5c393d5c8f99b9e4f672ef2b
+ms.openlocfilehash: 6206f61a69c14575a726da9ce64ad0b765c7aa87
+ms.sourcegitcommit: 886ca76086a302d1d6124967df12a5bcfe4fd4b5
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "36239779"
+ms.lasthandoff: 08/10/2018
+ms.locfileid: "40251434"
 ---
 # <a name="microsoft-docs-contributor-guide-overview"></a>Microsoft Docs deltagarguide – översikt
 
 Välkommen till deltagarguiden för [docs.microsoft.com](https://docs.microsoft.com) (Docs)!
 
-Flera av våra dokumentuppsättningar är öppen källa, med GitHub som värd. Fler och fler team anammar den här modellen hela tiden. Till och med dokumentuppsättningar som inte är helt öppen källa har offentliga lagringsplatser där du är inbjuden att göra pull-begäranden. Detta strömlinjeformar och förbättrar kommunikationen mellan produktingenjörer, innehållsteam och våra kunder. Att arbeta offentligt ger flera fördelar:
+Flera av våra dokumentuppsättningar är öppen källa, med GitHub som värd. Fler och fler team hos Microsoft anammar den här modellen hela tiden. Till och med dokumentuppsättningar som inte är helt öppen källa har offentliga lagringsplatser där du är inbjuden att göra pull-begäranden. Detta strömlinjeformar och förbättrar kommunikationen mellan produktingenjörer, innehållsteam och våra kunder. Att arbeta offentligt ger flera fördelar:
 
 - Lagringsplatser med öppen källkod offentligt för att få feedback på vilka dokument som behövs mest.
 - Offentlig granskning av lagringsplatser med öppen källkod för att publicera det mest hjälpfulla innehållet för din första utgåva.

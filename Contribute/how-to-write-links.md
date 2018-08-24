@@ -2,12 +2,12 @@
 title: Använda länkar i dokumentationen
 description: Den här artikeln innehåller vägledning för att skapa länkar till innehåll i docs.microsoft.com.
 ms.date: 06/29/2017
-ms.openlocfilehash: a66e2fb4febf1947afe01919b96b1c10873cf57d
-ms.sourcegitcommit: 92aef5ea8bdd692c5c393d5c8f99b9e4f672ef2b
+ms.openlocfilehash: dad0460cfb36594c17cef1b079c5fc14191f56f7
+ms.sourcegitcommit: 886ca76086a302d1d6124967df12a5bcfe4fd4b5
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "36239736"
+ms.lasthandoff: 08/10/2018
+ms.locfileid: "40251423"
 ---
 # <a name="using-links-in-documentation"></a>Använda länkar i dokumentation
 Den här artikeln beskriver hur du använder hyperlänkar från sidor som finns på docs.microsoft.com. Länkar är lätta att lägga till i Markdown med få varierande konventioner. Länkar leder användarna till innehåll på samma sida, leder bort till intilliggande sidor eller leder till externa webbplatser och webbadresser.
@@ -148,12 +148,12 @@ URL-sidans struktur:
 
 Delen med &lt;moniker-namnet&gt; är valfri. Om den utesluts kommer du att skickas till den senaste versionen av innehållet. Delen med &lt;tjänstnamnet&gt; är ett av de exempel som visas på följande grundläggande URL:er:
 
-- Innehåll från Azure PowerShell (AzureRM): https://docs.microsoft.com/powershell/azure/
-- Innehåll från Azure PowerShell (ASM): https://docs.microsoft.com/powershell/azure/_servicemanagement_
-- Innehåll från Azure Active Directory (AzureAD) PowerShell: https://docs.microsoft.com/powershell/azure/_active directory_
-- Azure Service Fabric PowerShell: https://docs.microsoft.com/powershell/azure/_service-fabric_
-- Azure Information Protection PowerShell: https://docs.microsoft.com/powershell/azure/_aip_
-- Azure Elastic DB Jobs PowerShell: https://docs.microsoft.com/powershell/azure/_elasticdbjobs_
+- Innehåll från Azure PowerShell (AzureRM): [https://docs.microsoft.com/powershell/azure/](https://docs.microsoft.com/powershell/azure/)
+- Innehåll från Azure PowerShell (ASM): [https://docs.microsoft.com/powershell/azure/_servicemanagement_](https://docs.microsoft.com/powershell/azure/servicemanagement)
+- Innehåll från Azure Active Directory (AzureAD) PowerShell: [https://docs.microsoft.com/powershell/azure/_active-directory_](https://docs.microsoft.com/powershell/azure/active-directory)
+- Azure Service Fabric PowerShell: [https://docs.microsoft.com/powershell/azure/_service-fabric_](https://docs.microsoft.com/powershell/azure/service-fabric)
+- Azure Information Protection PowerShell: [https://docs.microsoft.com/powershell/azure/_aip_](https://docs.microsoft.com/powershell/azure/aip)
+- Azure Elastic DB Jobs PowerShell: [https://docs.microsoft.com/powershell/azure/_elasticdbjobs_](https://docs.microsoft.com/powershell/azure/elasticdbjobs)
 
 När du använder dessa URL:er kommer du att omdirigeras till den senaste versionen av innehållet. På detta sätt behöver du inte ange en versionsmoniker. Och du behöver inte heller ha länkar till konceptuellt innehåll som måste uppdateras när versionen ändras.
 

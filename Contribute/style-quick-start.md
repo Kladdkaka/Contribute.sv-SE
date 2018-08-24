@@ -2,22 +2,22 @@
 title: Docs-stilguide – Snabbstart
 description: Den här artikeln är en kortfattad guide för stiltips och innehåller de mest grundläggande ämnena för att komma igång med docs.microsoft.com.
 ms.date: 07/25/2017
-ms.openlocfilehash: 34cd0dc1760f2a569f8bfec782f04b2691a74470
-ms.sourcegitcommit: 92aef5ea8bdd692c5c393d5c8f99b9e4f672ef2b
+ms.openlocfilehash: 3a91669ba9ad6711bcc436952d1d6cb311b9d4f6
+ms.sourcegitcommit: 886ca76086a302d1d6124967df12a5bcfe4fd4b5
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "36239613"
+ms.lasthandoff: 08/10/2018
+ms.locfileid: "40243033"
 ---
 # <a name="docs-style-and-voice-quick-start"></a>Snabbstart för stil och röst i Docs
 
-Den här snabbstarten kräver mycket lite tid, men ger dig en god överblick över hur du använder de viktigaste Docs-stilkoncepten när du skriver artiklar för docs.microsoft.com. De här riktlinjerna gäller vare sig du skapar ny dokumentation eller uppdatera existerande dokumentation.
+Den här snabbstarten är en kortfattad guide om att skriva tekniskt innehåll för publicering på docs.microsoft.com. De här riktlinjerna gäller vare sig du skapar ny dokumentation eller uppdatera existerande dokumentation.
 
-Som ett absolut minsta krav:
+Bästa praxis:
 
 - Kontrollera stavning och grammatik i dina artiklar, även om det innebär att du måste kopiera och klistra in texten i Word.
 - Använd en informell och vänlig ton, som om du talade med en annan person på tumanhand.
-- Använd enkla meningar. De är enklare att förstå och de är också enklare att översätta både av mänskliga översättare och maskinöversättare.
+- Använd enkla meningar. Lättlästa meningar innebär att läsaren snabbt kan använda dina riktlinjer.
 
 ## <a name="use-the-microsoft-voice-principles"></a>Använd principer för Microsoft-ton
 
