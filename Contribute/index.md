@@ -5,12 +5,12 @@ author: billwagner
 ms.author: wiwagn
 manager: wpickett
 ms.date: 04/17/2018
-ms.openlocfilehash: 6206f61a69c14575a726da9ce64ad0b765c7aa87
-ms.sourcegitcommit: 886ca76086a302d1d6124967df12a5bcfe4fd4b5
+ms.openlocfilehash: 94fad6f4b2faeefff687eb57cd2de8a0fb5bbbf3
+ms.sourcegitcommit: 5e508a7ad2991632a38f302e4769b36e3bf37eb2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/10/2018
-ms.locfileid: "40251434"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "43308903"
 ---
 # <a name="microsoft-docs-contributor-guide-overview"></a>Microsoft Docs deltagarguide – översikt
 
@@ -31,7 +31,7 @@ Användarupplevelsen på [docs.microsoft.com](https://docs.microsoft.com) integr
 
 ## <a name="quick-edits-to-existing-documents"></a>Snabbredigeringar till existerande dokument
 
-Snabbredigeringar strömlinjeformar processen med att rapportera och korrigera små fel och utelämningar i dokumenten. Trots att vi gör vårt yttersta kan små grammatik- och stavfel hitta sig in bland våra publicerade dokument. Då du kan skapa ärenden för att rapportera misstag. Det är snabbare och enklare att skapa en pull-begäran för att lösa problemet. Nästan alla artiklar har en redigeringsknapp såsom visas i följande figur. Klicka på knappen **Redigera** för att komma till källfilen på GitHub.
+Snabbredigeringar strömlinjeformar processen med att rapportera och korrigera små fel och utelämningar i dokumenten. Trots att vi gör vårt yttersta kan små grammatik- och stavfel hitta sig in bland våra publicerade dokument. Då du kan skapa ärenden för att rapportera misstag. Det är snabbare och enklare att skapa en pull-begäran för att lösa problemet. Nästan alla artiklar har en redigeringsknapp såsom visas i följande figur. Klicka på knappen **Redigera** (eller motsvarande lokalisering) för att komma till källfilen på GitHub.
 
 ![Platsen för länken Redigera](./media/index/edit-article.png)
 
@@ -46,6 +46,12 @@ Då du har gjort ändringarna rullar du längst ner på sidan. Ange titel och be
 
 ![föreslå din ändring](./media/index/submit-pull-request.png)
 
+Nu när du har gjort en föreslagen ändring måste du be ägaren av lagringsplatsen att ”dra” dina ändringar in i lagringsplatsen. Detta görs med någonting som kallas för ”pull-begäran”. När du klickat på **Föreslå filändring** i figuren ovan ska du ha blivit tagen till en ny sida som ser ut som följande bild:
+
+![skapa en pull-begäran](media/index/create-pull-request.png)
+
+Klicka på **Skapa pull-begäran**, ange en titel (och, valfritt, en beskrivning) för pull-begäran och klicka sedan igen på **Skapa pull-begäran**.
+
 Klart! Medlemmar i innehållsteamet kommer att granska och slå samman din pull-begäran. Du kan få viss feedback som begär ändringar om du gjort större ändringar.
 
 Användargränssnittet för GitHub-redigering svarar på dina tillstånd på lagringsplatsen. Följande bilder är korrekta för deltagare som inte har skrivbehörigheter till mållagringsplatsen. GitHub skapar automatiskt en förgrening för mållagringsplatsen i ditt konto. Om du har skrivåtkomst till mållagringsplatsen skapar GitHub en ny gren i mållagringsplatsen. Grennamnet har formatet **\<GitHubId\>-patch-n** och använder ditt GitHub-ID och en numerisk identifierare för korrigeringsgrenen.
@@ -53,6 +59,12 @@ Användargränssnittet för GitHub-redigering svarar på dina tillstånd på lag
 Vi använder pull-begäranden för alla ändringar, även för deltagare som har skrivåtkomst. De flesta lagringsplatser har `master`-grenen skyddad så att uppdateringar måste skickas som pull-begäranden.
 
 Redigeringsupplevelsen i webbläsaren är bäst för mindre eller inte ofta förekommande ändringar. Om du gör stora bidrag eller använder avancerade Git-funktioner (såsom förgreningshantering eller lösning av avancerad kopplingskonflikt), behöver du [förgrena lagringsplatsen och arbeta lokalt](how-to-write-workflows-major.md).
+
+> [!NOTE]
+> Om det är aktiverat kan du redigera en artikel på **alla språk** och baserat på ändringsstypen händer följande:
+> 1. lingvistiska ändringar som godkänns hjälper oss förbättra vår maskinöversättning
+> 2. ändringar som gör betydande ändringar av innehållet i en artikel hanteras internt för att skicka in en ändring av samma artikel på engelska, så att den lokaliseras på alla språk, om det godkänns.
+> Dina föreslagna förbättringar har inte bara positiv effekt på artiklarna på sitt eget språk, utan för alla tillgängliga språk.
 
 ## <a name="review-open-prs"></a>Granska öppna pull-begäranden
 
