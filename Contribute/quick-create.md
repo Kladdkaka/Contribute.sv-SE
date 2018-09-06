@@ -6,14 +6,14 @@ author: syntaxc4
 manager: erifkin
 ms.date: 07/24/2018
 ms.author: cfowler
-zone_pivot_groups: keyvault-languages, keyvault-platforms
+zone_pivot_groups: keyvault-languages
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 8b758274203748bb6e04c03dec5de38fb77947b4
-ms.sourcegitcommit: b0105f322f91bb4dbde47f6da35b3c12271d5b03
+ms.openlocfilehash: 27ebd3e348fc231d8b82e6c17f282bd9ca4afb9f
+ms.sourcegitcommit: 5e508a7ad2991632a38f302e4769b36e3bf37eb2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "43239519"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "43308834"
 ---
 # <a name="quickstart-set-and-retrieve-a-secret-from-azure-key-vault"></a>Snabbstart: Ställ in och hämta en hemlighet från Azure Key Vault
 
@@ -29,24 +29,17 @@ Den här snabbstarten beskriver hur du lagrar en hemlighet i Key Vault och hur d
 
 Försäkra dig om att du känner till [grundbegreppen](https://docs.microsoft.com/azure/key-vault/key-vault-whatis#basic-concepts) innan du fortsätter.
 
->[!NOTE]
-För att förstå varför självstudien nedan är bästa praxis är det viktigt att du förstår vissa begrepp. Key Vault är en central lagringsplats för programmeringsbaserad lagring av hemligheter. Detta kräver att program och användare först autentiseras mot Key Vault, dvs. presenterar en hemlighet. Den här första hemligheten måste dessutom roteras med jämna mellanrum för att uppfylla de rekommenderade säkerhetsmetoderna. Med [hanterad tjänstidentitet (MSI)](https://docs.microsoft.com/azure/active-directory/managed-service-identity/overview) tilldelas program som körs i Azure en identitet som hanteras automatiskt av Azure. Detta löser **problemet med den första hemligheten** där användare och program kan följa regelverket utan att behöva bekymra sig om roteringen av den första hemligheten
+> [!NOTE]
+> För att förstå varför självstudien nedan är bästa praxis är det viktigt att du förstår vissa begrepp. Key Vault är en central lagringsplats för programmeringsbaserad lagring av hemligheter. Detta kräver att program och användare först autentiseras mot Key Vault, dvs. presenterar en hemlighet. Den här första hemligheten måste dessutom roteras med jämna mellanrum för att uppfylla de rekommenderade säkerhetsmetoderna. Med [hanterad tjänstidentitet (MSI)](https://docs.microsoft.com/azure/active-directory/managed-service-identity/overview) tilldelas program som körs i Azure en identitet som hanteras automatiskt av Azure. Detta löser **problemet med den första hemligheten** där användare och program kan följa regelverket utan att behöva bekymra sig om roteringen av den första hemligheten
 
 ## <a name="prerequisites"></a>Förhandskrav
 
 ::: zone pivot="nodejs"
-* [Node JS](https://nodejs.org/en/) ::: zone-end
-
-::: zone pivot="dotnet, windows"
+* [Node JS](https://nodejs.org/en/) ::: zone-end ::: zone pivot="dotnet"
 * [Visual Studio 2017 version 15.7.3 eller senare](https://www.microsoft.com/net/download/windows) med följande arbetsbelastningar:
   * ASP.NET och webbutveckling
   * .NET Core plattformsoberoende utveckling
 * [.NET Core 2.1 SDK eller senare](https://www.microsoft.com/net/download/windows) :::zone-end
-
-::: zone pivot="dotnet, mac"
-* Se [Nyheter i Visual Studio för Mac](https://visualstudio.microsoft.com/vs/mac/).
-:::zone-end
-
 * Git ([ladda ned](https://git-scm.com/downloads)).
 * En Azure-prenumeration. Om du inte har en Azure-prenumeration kan du skapa ett [kostnadsfritt konto](https://azure.microsoft.com/free/?WT.mc_id=A261C142F) innan du börjar.
 * [Azure CLI](https://docs.microsoft.com/cli/azure/install-azure-cli?view=azure-cli-latest) version 2.0.4 eller senare. Detta är tillgängligt för Windows, Mac och Linux.
@@ -168,10 +161,10 @@ Nedan beskrivs de få steg som krävs
     ```bash
     git remote add azure <url>
     ```
+    
 ::: zone-end
 
 ::: zone pivot="dotnet"
-
 ## <a name="open-and-edit-the-solution"></a>Öppna och redigera lösningen
 
 Redigera filen program.cs för att köra exemplet med namnet på ditt specifika nyckelvalvsnamn:
@@ -197,7 +190,6 @@ Publicera den här appen till Azure för att se den live som en webbapp och se a
 5. Välj **Skapa**.
 
 >[!VIDEO https://sec.ch9.ms/ch9/e93d/a6ac417f-2e63-4125-a37a-8f34bf0fe93d/KeyVault_high.mp4]
-
 ::: zone-end
 
 ## <a name="enable-managed-service-identities"></a>Aktivera hanterade tjänstidentiteter
@@ -242,7 +234,9 @@ git push azure master
 ```
 
 När du har gjort det och går till https://<app_name>.azurewebsites.net kan du se det hemliga värdet.
-Kontrollera att du ersatte namnet <YourKeyVaultName> med namnet på ditt valv ::: zone-end
+Kontrollera att du ersatte namnet <YourKeyVaultName> med namnet på ditt valv
+
+::: zone-end
 
 ::: zone pivot="dotnet" Nu när du kör programmet bör ditt hemliga värde hämtas.
 ::: zone-end
