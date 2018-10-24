@@ -2,12 +2,12 @@
 title: Docs-stilguide – Snabbstart
 description: Den här artikeln är en kortfattad guide för stiltips och innehåller de mest grundläggande ämnena för att komma igång med docs.microsoft.com.
 ms.date: 07/25/2017
-ms.openlocfilehash: 3a91669ba9ad6711bcc436952d1d6cb311b9d4f6
-ms.sourcegitcommit: 886ca76086a302d1d6124967df12a5bcfe4fd4b5
+ms.openlocfilehash: 861181c7bfa22881fdd11327d19b2d7d517775c8
+ms.sourcegitcommit: 6f1997864c000a9cd25fb9171a8f8fdb8b5b5ece
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/10/2018
-ms.locfileid: "40243033"
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "49084409"
 ---
 # <a name="docs-style-and-voice-quick-start"></a>Snabbstart för stil och röst i Docs
 
@@ -15,7 +15,7 @@ Den här snabbstarten är en kortfattad guide om att skriva tekniskt innehåll f
 
 Bästa praxis:
 
-- Kontrollera stavning och grammatik i dina artiklar, även om det innebär att du måste kopiera och klistra in texten i Word.
+- Kontrollera stavning och grammatik i dina artiklar, även om det innebär att du måste kopiera och klistra in texten i Microsoft Word.
 - Använd en informell och vänlig ton, som om du talade med en annan person på tumanhand.
 - Använd enkla meningar. Lättlästa meningar innebär att läsaren snabbt kan använda dina riktlinjer.
 
@@ -45,11 +45,11 @@ Våra tekniska artiklar översätts till flera olika språk och vissa av dem mod
 - För steg som inkluderar kodfragment lägger du till extra information om steget i koden som kommentarer. Detta minskar mängden text som behöver läsas. Den huvudsakliga informationen kopieras in i kodprojektet för att påminna om vad koden gör när de refererar till den senare.
 - Använd inledande versal för alla titlar och rubriker.
 - Använd "logga in" (sign-in inte log-in).
-- Ta med ord som ”följande” eller ”efter” i meningar som efterföljs av en lista eller ett kodfragment.
+- Fler riktlinjer finns i [Microsoft Writing Style Guide](https://docs.microsoft.com/style-guide/welcome) (Microsoft skrivhjälpsguide).
 
 ## <a name="localized-documentation"></a>Översatt dokumentation
 
 - Om du bidrar till översatt dokumentation, se [Microsoft Language Portal](https://www.microsoft.com/Language/Default.aspx).
 - Om du vill ha riktlinjer om översättning, information om språkstil och -bruk i tekniska publikationer och information om marknadsspecifika dataformat kan du hämta en [stilguide](https://www.microsoft.com/Language/StyleGuides) på ditt språk.
 - För Microsoft-översatt terminologi, sök efter [produktspecifik godkänd terminologi](https://www.microsoft.com/Language/Default.aspx) eller hämta [Microsoft Terminology Collection](https://www.microsoft.com/Language/Terminology.aspx) på ditt språk.
-- Du hittar mer information i [lokaliseringsavsnittet](https://docs.microsoft.com/style-guide/global-communications/) av Microsoft-stilguiden.
+- Om du vill lära dig mer om lokalisering kan du läsa "Global communications" (”Global kommunikation”) i [Microsoft Writing Style Guide](https://docs.microsoft.com/style-guide/global-communications) (Microsoft skrivhjälpsguide).
