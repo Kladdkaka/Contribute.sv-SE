@@ -2,12 +2,12 @@
 title: Docs-stilguide – Snabbstart
 description: Den här artikeln är en kortfattad guide för stiltips och innehåller de mest grundläggande ämnena för att komma igång med docs.microsoft.com.
 ms.date: 07/25/2017
-ms.openlocfilehash: 861181c7bfa22881fdd11327d19b2d7d517775c8
-ms.sourcegitcommit: 6f1997864c000a9cd25fb9171a8f8fdb8b5b5ece
+ms.openlocfilehash: f5c32d3fb71ef3513c68b9c506c823997bfe4d8f
+ms.sourcegitcommit: d3c7b49dc854dae8da9cd49da8ac4035789a5010
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "49084409"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "49805607"
 ---
 # <a name="docs-style-and-voice-quick-start"></a>Snabbstart för stil och röst i Docs
 
@@ -51,5 +51,5 @@ Våra tekniska artiklar översätts till flera olika språk och vissa av dem mod
 
 - Om du bidrar till översatt dokumentation, se [Microsoft Language Portal](https://www.microsoft.com/Language/Default.aspx).
 - Om du vill ha riktlinjer om översättning, information om språkstil och -bruk i tekniska publikationer och information om marknadsspecifika dataformat kan du hämta en [stilguide](https://www.microsoft.com/Language/StyleGuides) på ditt språk.
-- För Microsoft-översatt terminologi, sök efter [produktspecifik godkänd terminologi](https://www.microsoft.com/Language/Default.aspx) eller hämta [Microsoft Terminology Collection](https://www.microsoft.com/Language/Terminology.aspx) på ditt språk.
+- För Microsoft-översatt terminologi, sök efter [produktspecifik godkänd terminologi](https://www.microsoft.com/Language/Default.aspx) eller hämta [Microsoft Terminology Collection](https://www.microsoft.com/language/Terminology) på ditt språk.
 - Om du vill lära dig mer om lokalisering kan du läsa "Global communications" (”Global kommunikation”) i [Microsoft Writing Style Guide](https://docs.microsoft.com/style-guide/global-communications) (Microsoft skrivhjälpsguide).
